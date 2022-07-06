@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.nav.justify-content-end li a {
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+
+li {
+    list-style: none;
+}
+
+a:hover {
+    font-weight:lighter;
+    color: rgb(174, 0, 255) ;
+    transition: 3ms;
+}
+
+.main-title {
+    text-align: center;
+    padding: 3em;
+}
+
+.nav,
+.nav-pills,
+.nav-fill {
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-link {
+    color: white;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+}
+
+.nav-pills .nav-link.active  {
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: #ffffff;
+}
+
+h1, h2, h3 {
+    font-family: 'Tangerine', cursive;
+}
+
+h1 {
+    font-size: 5.5em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2.9em;
+    padding: 1em 0;
+}
+
+.quote {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.3em;
+}
+
+.training-title,
+.contact-title  {
+    text-align: center;
+}
+
+.traning-list {
+    list-style: none;
+    text-align: center;
+}
+
+.training-content,
+.contact-content {
+    padding: 1em;
+    text-align: center;
+}
