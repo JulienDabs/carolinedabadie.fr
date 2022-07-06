@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(114, 131, 97);
     font-family: 'Roboto', sans-serif;
     color: white;
 }
 
 .nav.justify-content-end li a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 170, 170);
     text-transform: capitalize;
 }
 
@@ -27,7 +27,7 @@ a:hover {
 .nav,
 .nav-pills,
 .nav-fill {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(252, 162, 162);
 }
 
 .nav-link {
@@ -38,7 +38,7 @@ a:hover {
 }
 
 .nav-pills .nav-link.active  {
-    color: rgb(0, 0, 0);
+    color: rgb(248, 153, 153);
     background-color: white;
 }
 
