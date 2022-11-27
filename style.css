@@ -1,11 +1,11 @@
 body {
-    background-color: #BDE1C1;
+    background-color: #c2bae3;
     font-family: 'Roboto', sans-serif;
     color: black;
 }
 
 .nav.justify-content-end li a {
-    color: rgb(255, 170, 170);
+    color: #c2bae3;;
     text-transform: capitalize;
 }
 
@@ -27,14 +27,14 @@ a:hover {
 .nav,
 .nav-pills,
 .nav-fill {
-    background-color: rgb(252, 162, 162);
+    background-color: #c2bae3;;
 }
 
 .nav-link {
-    color: white;
-    font-weight: 900;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3em;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5em;
 }
 
 .nav-pills .nav-link.active  {
@@ -85,12 +85,20 @@ h3 {
     text-align: center;
 }
 
-.color1 {
-    background-color: #FFF6BB;
+.color1,
+.color2,
+.color3,
+.color4,
+.pictures {
+    border-radius: 4em;
 }
 
+.color1 {
+    background-color: #fff6bba9;
+    }
+
 .color2 {
-    background-color: #C2BBE3;
+    background-color: #c2bae3;
 }
 
 .color3 {
@@ -98,5 +106,15 @@ h3 {
 }
 
 .color4 {
-    background-color: #BDE1C1;
+    background-color: #c2bae3;;
+}
+
+.contact {
+    color: black;
+    text-decoration: none;
+    
+}
+
+footer {
+    font-weight: bolder;
 }
